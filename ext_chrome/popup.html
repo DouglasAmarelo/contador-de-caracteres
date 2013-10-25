@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Douglas (Amarelo) Lopes">
+	<meta name="description" content="Contador de Caracteres Online para Anúncios no Facebook, Adwords e para SEO. Ferramenta com limitador de caracteres para SEO e SEM.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Contador de Caracteres Online | Jüssi</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
+	<script type="text/javascript" src="js/conta-caracteres.js"></script>
+	<script type="text/javascript" src="js/jquery.limit-1.2.source.js"></script>
+	<script type="text/javascript" src="js/mine.js"></script>
+</head>
+<body>
+
+<section class="main clearfix">
+	<header class="clearfix">
+		<h1>Contador de caracteres</h1>
+	</header>
+
+	<div id="tabs">
+		<menu>
+			<ul>
+				<li><h2><a href="#tabs-1" title="Contador de Caracteres online">Sem limitador</h2></a></li>
+				<li><h2><a href="#tabs-2" title="Contador de Caracteres online para Facebook">Facebook</h2></a></li>
+				<li id="link-sem"><h2><a href="#tabs-3" title="Contador de Caracteres online para Adwords (SEM)">AdWords</h2></a></li>
+			</ul>
+		</menu>
+
+		<!-- Sem limitador -->
+		<div id="tabs-1">
+			<form action="#" class="clearfix">
+				<fieldset class="clearfix">
+					<textarea class="contador placeholder full-size" placeholder="Sem limitador"></textarea>
+				</fieldset>
+
+				<fieldset class="clearfix">
+					<input type="reset" value="Limpar campo">
+				</fieldset>
+			</form>
+		</div>
+		<!-- /Sem limitador -->
+
+		<!-- Facebook -->
+		<div id="tabs-2">
+			<form action="#" class="clearfix">
+				<fieldset class="clearfix">
+					<input class="face-tit placeholder full-size" type="text" placeholder="Título" value="">
+					<div class="resultado">Caracteres restantes <span class="face-tit-result"></span></div>
+				</fieldset>
+
+				<fieldset class="clearfix">
+					<input class="face-desc placeholder full-size" type="text" placeholder="Descrição" value="">
+					<div class="resultado">Caracteres restantes <span class="face-desc-result"></span></div>
+				</fieldset>
+
+				<fieldset class="clearfix">
+					<input type="reset" value="Limpar campos">
+				</fieldset>
+			</form>
+		</div>
+		<!-- /Facebook -->
+
+		<!-- SEM -->
+		<div id="tabs-3">
+			<!-- Anúncio -->
+			<div class="sem-anuncio">
+				<a class="title" href="#" title="Exemplo de título">Exemplo de título</a>
+				<a class="link" href="#" title="www.exemplodeurlvisivel.com.br">www.exemplodeurlvisivel.com.br</a>
+				<p class="desc1">Aqui vem a nossa primeira descrição</p>
+				<p class="desc2">Aqui vem a nossa segunda descrição</p>
+			</div>
+			<!-- /Anúncio -->
+
+			<form action="#" class="clearfix">
+				<fieldset class="clearfix">
+					<input class="sem-tit placeholder full-size" type="text" placeholder="Título" value="">
+					<div class="resultado">Caracteres restantes <span class="sem-tit-result"></span></div>
+				</fieldset>
+
+				<fieldset class="clearfix">
+					<input class="sem-desc1 placeholder full-size" type="text" placeholder="Descrição 1" value="">
+					<div class="resultado">Caracteres restantes <span class="sem-desc1-result"></span></div>
+				</fieldset>
+
+				<fieldset class="clearfix">
+					<input class="sem-desc2 placeholder full-size" type="text" placeholder="Descrição 2" value="">
+					<div class="resultado">Caracteres restantes <span class="sem-desc2-result"></span></div>
+				</fieldset>
+
+				<fieldset class="clearfix">
+					<input class="sem-url placeholder full-size" type="text" placeholder="URL visível" value="">
+					<div class="resultado">Caracteres restantes <span class="sem-url-result"></span></div>
+				</fieldset>
+
+				<fieldset class="clearfix">
+					<input type="reset" value="Limpar campos">
+				</fieldset>
+			</form>
+		</div>
+		<!-- /SEM -->
+	</div>
+
+	<!-- Footer -->
+	<footer class="rights">
+		<a href="http://www.jussi.com.br/" class="logo" title="Jussi"><img src="jussi-logo.jpg" alt="Jussi" height="50" width="128"></a>
+		<div class="l-float">
+			<a href="mailto:contato@jussi.com.br" title="Entre em contato">contato@jussi.com.br</a><br>
+			+55 11 3071.1284<br>
+			Rua Bandeira Paulista, 275 – Itaim Bibi – São Paulo, 04532-010
+		</div>
+	</footer>
+	<!-- /Footer -->
+</section>
+</body>
+</html>
