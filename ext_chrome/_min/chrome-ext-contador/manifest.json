@@ -1,0 +1,17 @@
+{
+	"name": "Contador de Caracteres Online | Jüssi",
+	"short_name": "Contador de Caracteres",
+	"version": "1.2.3",
+	"description": "Contador de Caracteres Online para Anúncios no Facebook, Adwords e para SEO. Ferramenta com limitador de caracteres para SEO e SEM.",
+	"manifest_version": 2,
+	"icons": {
+		"32" : "ico_32.png",
+		"128" : "ico_128.png"
+	},
+	"browser_action": {
+		"default_icon": "ico_32.png",
+		"default_title": "Contador de Caracteres Online | Jüssi",
+		"default_popup": "popup.html"
+	},
+	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}

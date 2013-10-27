@@ -45,18 +45,16 @@ h5 {font-size: 16px;}
 *:first-child+html .clearfix {zoom: 1;}
 .full-size {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
 
-
-.logo {display: block; float: left; margin: 8px 25px 0 0;}
-header h1 {float: left; font-size: 29px; margin: 5px 0 5px 0; padding: 2px 8px;}
+header h1 {float: left; font-size: 29px; margin: 0 0 5px 0; padding: 2px 8px;}
 
 /* Tabs */
-#tabs {margin-top: 20px;}
+#tabs {margin-top: 10px;}
 #tabs menu {margin: 0; padding: 0;}
 #tabs ul {font-size: 0; margin-bottom: 10px;}
-#tabs ul li {background-color: #6cad42;  display: inline-block; font-size: 20px; margin-left: 10px;}
+#tabs ul li {background-color: #6cad42; display: inline-block; font-size: 20px; margin-left: 10px;}
 #tabs ul li:first-child {margin-left: 0;}
-#tabs ul li h2 {background: none; display: block; font-size: 17px; margin: 0;}
-#tabs ul li h2 a {color: #000; display: block; padding: 5px 10px; text-decoration: none;}
+#tabs ul li h2 {background: none; display: block; font-size: 17px; margin: 0; padding: 0;}
+#tabs ul li h2 a {color: #000; display: block; padding: 7px 12px; text-decoration: none;}
 #tabs ul li.ui-state-active, 
 #tabs ul li.ui-state-hover {background-color: #000;}
 #tabs ul li.ui-state-active a, 
@@ -82,17 +80,15 @@ form input[type="reset"]:hover {background: #000;}
 .resultado span {font-size: 18px; font-weight: bold; padding: 6px 0;}
 
 /* Visualização do anúncio */
-.sem-anuncio {background-color: #fff; display: none; font-family: Arial; padding: 15px; position: absolute; right: 0; top: -115px; width: 245px;}
+.sem-anuncio {background-color: #fff; display: none; font-family: Arial; padding: 10px; position: absolute; right: 0; top: -105px; width: 245px;}
 .sem-anuncio .title {color: #2518b5; display: block; font-size: 16px; line-height: 19px;}
 .sem-anuncio .link  {color: #00802a; display: block; font-size: 14px; padding: 2px 0; text-decoration: none;}
 .sem-anuncio .desc1, 
 .sem-anuncio .desc2 {color: #444; font-size: 13px; margin: 0; line-height: 16px; overflow: hidden; width: 245px;}
 
-/* Share buttons */
-.share .fb-like {margin-right: 15px;}
-
 /*  Footer*/
-.rights {border-top: 2px dashed #b5b5b5; font-size: 12px; font-style: italic; line-height: 175%; margin-top: 15px; padding-top: 5px;}
+.logo {display: block; float: left; margin: 10px 25px 0 0;}
+.rights {border-top: 1px dashed #b5b5b5; font-size: 11px; font-style: italic; line-height: 150%; margin-top: 12px; padding-top: 5px;}
 .rights a {color: #000;}
 .rights a:hover {color: #777;}
 .rights .l-float {float: left;}
